@@ -1,4 +1,4 @@
-package com.thetestingacademy.sample;
+package ex_01_RA_Basics;
 
 import io.restassured.RestAssured;
 
@@ -19,7 +19,7 @@ public class RestAssuredHelloWorld {
                             .log().all().get()
 
                             .then()
-                            .log().all().statusCode(200);
+                            .log().all().statusCode(201);
 
     }
 }
