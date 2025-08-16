@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rest Assured Learning 13x">
+    <test verbose="2" preserve-order="true" name="ATB1xAPIAutomationPrograms">
+
+        <groups>
+            <run>
+                <include name = "reg">
+                </include>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="ex_05_TestNG_Examples.APITesting017_TESTNG_Groups">
+            </class>
+        </classes>
+    </test>
+</suite>
